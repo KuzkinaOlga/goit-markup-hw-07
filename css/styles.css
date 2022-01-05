@@ -1,13 +1,3 @@
-:root {
-  --background-color: #ffffff;
-  --theme-color: #2196f3;
-  --tittle-text-color: #212121;
-  --text-primery: #757575;
-
-  --primery-font: "Roboto";
-  --secondary-font: "Raleway";
-}
-
 body {
   font-family: var(--primery-font);
   background-color: var(--background-color);
