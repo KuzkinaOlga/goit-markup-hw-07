@@ -1,0 +1,38 @@
+body {
+  font-family: var(--primery-font);
+  background-color: var(--background-color);
+  color: var(--text-primery);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}

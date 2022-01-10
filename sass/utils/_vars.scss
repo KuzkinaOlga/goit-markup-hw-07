@@ -7,3 +7,9 @@
   --primery-font: "Roboto";
   --secondary-font: "Raleway";
 }
+
+%centered-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

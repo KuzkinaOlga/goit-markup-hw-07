@@ -1,0 +1,46 @@
+.section-quality {
+  padding-top: 94px;
+}
+.quality__text {
+  align-items: center;
+}
+.quality {
+  display: flex;
+  flex-wrap: wrap;
+}
+.quality__item {
+  width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.quality__pic {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.quality__pic {
+  @extend %centered-content;
+}
+.quality__icon {
+  width: 70px;
+  height: 70px;
+}
+.quality__title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #212121;
+}
+.quality__info {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
