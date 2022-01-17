@@ -23,7 +23,9 @@
   border-radius: 4px;
 }
 .quality__pic {
-  @extend %centered-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .quality__icon {
   width: 70px;
